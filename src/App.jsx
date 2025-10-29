@@ -15,6 +15,8 @@ import Education from "./pages/Education";
 import Contact from "./pages/Contact";
 import PageTransition from "./components/PageTransition";
 import Footer from "./components/Footer";
+import Resume from "./pages/Resume";
+import Blog from "./pages/Blogs";
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -67,6 +69,22 @@ function AnimatedRoutes() {
           element={
             <PageTransition>
               <Education />
+            </PageTransition>
+          }
+        />
+        <Route
+          path="/resume"
+          element={
+            <PageTransition>
+              <Resume />
+            </PageTransition>
+          }
+        />
+        <Route
+          path="/blogs"
+          element={
+            <PageTransition>
+              <Blog />
             </PageTransition>
           }
         />
