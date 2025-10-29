@@ -1,4 +1,3 @@
-# Kruti-Amrutiya-Portfolio
 Portfolio web application
 =======
 # React + Vite
